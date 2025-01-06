@@ -15,7 +15,7 @@ CrowdFunding Web App that allows users to:
 ## Built With:
 
 - Django Framework
-- MySQL Database
+  SQLitedb3 Database
 - HTML, CSS, JS, Bootstrap
 
 ## Installation and Run project:
