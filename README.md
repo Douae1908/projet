@@ -81,14 +81,21 @@ python manage.py runserver
 ### Structure des fichiers
 ```
 project/
-├── apps/
-│   ├── authentication/
-│   ├── projects/
-│   └── profiles/
-├── static/
-├── templates/
-├── manage.py
-└── requirements.txt
+├── apps/                      # Dossier principal des applications
+│   ├── authentication/        # Gestion de l'authentification
+│   ├── home/                  # Application principale
+│   ├── static/                # Fichiers statiques (CSS, JS, images)
+│   ├── templates/             # Templates HTML
+│   ├── __init__.py           # Initialisation du package Python
+│   ├── config.py             # Configuration des applications
+│   └── context_processors.py  # Processeurs de contexte Django
+├── core/                      # Configuration centrale du projet
+├── db.sqlite3                 # Base de données SQLite
+├── gunicorn-cfg.py           # Configuration du serveur Gunicorn
+├── manage.py                  # Script de gestion Django
+├── package.json              # Dépendances Node.js
+├── requirements.txt          # Dépendances Python
+└── README.md                 # Documentation du projet
 ```
 
 ### Configuration de la base de données
@@ -122,11 +129,12 @@ Pour contribuer au projet :
 2. Suivre les conventions de code du projet
 3. Tester vos modifications
 4. Soumettre une pull request
+## Équipe de Développement
 
-## Contact et support
-Pour toute question ou assistance, contactez l'équipe de développement via :
-- Email : [adresse_email]
-- Documentation : [lien_documentation]
-- Suivi des problèmes : [lien_issues]
-
-Ce README fournit une vue d'ensemble complète du projet tout en restant accessible aux développeurs de tous niveaux.
+HAMMALE MOURAD  
+MALIKA GAREH  
+DOUAE FARCHAKHI  
+FRIK AYA  
+HABBANI MOHAMMED  
+HILAL AYOUB  
+CHAIMAE HAMMACH  
